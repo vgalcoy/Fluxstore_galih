@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Conectare" />
+        <item
+            android:enabled="false"
+            android:title="GENERAL" />
+        <item
+            android:id="@+id/love"
+
+            android:icon="@android:drawable/btn_star"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/app_bar_switch"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="Switch"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="List" />
+        <item
+            android:id="@+id/test1"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+        <item
+            android:id="@+id/test2"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+        <item
+            android:id="@+id/test3"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+        <item
+            android:id="@+id/test4"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+        <item
+            android:id="@+id/test5"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+        <item
+            android:id="@+id/test6"
+
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Test 1" />
+    </group>
+</menu>
